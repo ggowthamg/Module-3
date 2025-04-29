@@ -23,7 +23,17 @@ To write a Python program that matches a string containing an `'a'` followed by 
 ### PROGRAM
 
 ```
+import re
+a = str(input())
+pattern = r'^ab*$'
+if re.match(pattern,a):
+    print("Found a match!")
+else:
+    print("Not matched!")
 ```
 ### OUTPUT
+![image](https://github.com/user-attachments/assets/bc846f1b-7802-417a-8905-63409ceec7c5)
+
 
 ### RESULT
+Thus the program PATTERN MATCHING USING REGEX have been executed and verified sucessfully
