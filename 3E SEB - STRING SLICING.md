@@ -23,8 +23,17 @@ To write a Python function that accepts a string and forms a new string by rever
 ### PROGRAM
 
 ```
+n = int(input())
+def remove(a):
+    str=''
+    for i in range (len(a)):
+        if i !=(n):
+            str +=a[i]
+    print(str)
 ```
 
 ### OUTPUT
+![image](https://github.com/user-attachments/assets/72e0ee85-612b-467b-9fea-57afac7c4c24)
 
 ### RESULT
+Thus the program STRING SLICING have been executed and verified sucessfully
